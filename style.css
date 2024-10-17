@@ -1,0 +1,188 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* INDEX + LANDING PAGE */
+
+body {
+  background-color: #fbf7f5;
+}
+
+.entry {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-family: "Cedarville Cursive", cursive;
+  letter-spacing: -1px;
+  color: #5703EF;
+  display: block;
+}
+
+.eyes_entry {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5703EF;
+  display: none;
+}
+
+/* GENERAL PAGES */
+
+.eyes_normal {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5703EF;
+}
+
+.dialogue {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border: 3px dashed #5703EF;
+  display: none;
+}
+
+.dialogue2 {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border: 3px dashed #5703EF;
+  display: none;
+}
+
+.search {
+  font-size: 50px;
+  font-family: "Jersey 10", serif;
+  color: #5703EF;
+  display: block;
+}
+
+input[type="text"] {
+  background-color: white;
+  color: #5703EF;
+  border: 3px solid #5703EF;
+  font-family: "Jersey 10", serif;
+  font-size: 30pt;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder {
+  color: #5703EF;
+}
+
+/* BUTTONS */
+
+.submit {
+  background-color: white;
+  color: #5703EF;
+  border: 3px solid #5703EF;
+  font-family: "Jersey 10", serif;
+  font-size: 30pt;
+  text-decoration: none;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #5703EF;
+  color: white;
+}
+
+.submit_small {
+  background-color: white;
+  color: #5703EF;
+  border: 3px solid #5703EF;
+  font-family: "Jersey 10", serif;
+  font-size: 20pt;
+  text-decoration: none;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.submit_small:hover {
+  background-color: #5703EF;
+  color: white;
+}
+
+/* ABOUT PAGE */
+
+.about {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.title {
+  font-family: monospace;
+  color: #5703EF;
+  text-align: center;
+}
+
+.description {
+  font-family: monospace;
+  color: #5703EF;
+  font-size: 14px;
+  display: block;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+
+/* MISC. ADJUSTMENTS */
+
+.timer {
+  color: #5703EF;
+  border: 3px solid #5703EF;
+  font-family: "Jersey 10", serif;
+  font-size: 30pt;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.angels a {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-family: "Jersey 10", serif;
+  font-size: 50pt;
+  text-decoration: none;
+  margin: 8px 0;
+  display: none;
+}
+
+.angels a:hover {
+  text-decoration: underline;
+  color: red;
+}

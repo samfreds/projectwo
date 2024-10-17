@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinking</title>
+</head>
+
+<body>
+    <img class="gif" src="/Thinking.gif">
+    <button class="button" onclick="parent.window.opener.location='image.html'; window.close();">Close</button>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+    .jacquard-12-regular {
+        font-family: "Jacquard 12", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    body {
+        height: 100%;
+        overflow: hidden;
+        align-content: center;
+        background-color: black;
+    }
+
+    .gif {
+        height: 100%;
+        width: 100%;
+        margin: none;
+        z-index: 1;
+    }
+
+    .button {
+        position: fixed;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        color: red;
+        border: 3px solid red;
+        font-family: "Jersey 10", serif;
+        font-size: 10pt;
+        text-decoration: none;
+        margin: 8px 0;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: red;
+        color: black;
+    }
+</style>
+
+</html>

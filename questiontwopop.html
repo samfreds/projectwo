@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinking</title>
+    <script src="/javascript/answers.js"></script>
+</head>
+
+<body>
+    <img id="randomImage" class="img" src="" alt="Random Image">
+    <button class="button" onclick="parent.window.opener.location='answer.html'; window.close();">Close</button>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+    .jacquard-12-regular {
+        font-family: "Jacquard 12", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    .img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .button {
+        position: fixed;
+        top: 92%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        color: #ffafcc;
+        border: 3px solid #ffafcc;
+        font-family: "Jersey 10", serif;
+        font-size: 10pt;
+        text-decoration: none;
+        margin: 8px 0;
+        cursor: pointer;
+        opacity: 75%;
+    }
+
+    .button:hover {
+        background-color: #ffafcc;
+        color: white;
+    }
+</style>
+
+</html>
